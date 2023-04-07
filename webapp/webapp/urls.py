@@ -29,6 +29,6 @@ def home(req):
 urlpatterns = [
     #path("", index),
     #path("home/", home),
-    path("admin/", admin.site.urls),
+    # path("admin/", admin.site.urls),
     path("", include('api.urls')),
 ]
